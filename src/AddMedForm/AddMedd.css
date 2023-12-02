@@ -1,0 +1,48 @@
+form {
+
+  overflow: hidden;
+  color: white;
+  background-image: url('../assets/img/banner-bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+  h2{
+    margin-top:8em;
+  }
+
+  form label,
+  form input {  
+    display: inline-block ;
+    margin-bottom: 2em;
+    width: 20em;
+  }
+  form input {
+    margin-left:3em;
+  }
+  .added{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3em;
+  }
+
+.added input{
+    width: 9em;
+}
+  fieldset {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px 15px; 
+  }
+  legend {
+    font-weight: bold;
+    padding: 0 10px; 
+  }
+  
+input[type="radio"]{
+  width: 50px;
+}

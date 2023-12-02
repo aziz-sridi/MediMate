@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+
+:root{
+  --white: #ffffff;
+  --lightBG: #dce1df;
+  --salmon: #ff6666;
+
+  --teal: #0096a0;
+  --darkGrey: #4f585e;
+}
+.Container{
+  background-image: url('../assets/img/banner-bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+h2{
+    margin-top: 15%;
+}
+a.btn {
+  background: var(--teal);
+  border-radius: 4px;
+  box-shadow: 0 2px 0px 0 rgba(0,0,0,0.25);
+  color: var(--white);
+  display: inline-block;
+  padding: 6px 30px 8px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.1s 0s ease-out;
+}
+div.cards {
+  position: relative;
+  top: 10em;
+  margin: 80px auto;
+  max-width: 960px;
+  text-align: center;
+}
+div.card {
+color :black;
+  background: var(--white);
+  display: inline-block;
+  margin: 8px;
+  max-width: 350px;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s 0s ease-in;
+  z-index: 1;
+}
+div.card img {
+  max-width: 350px;
+  height: 300px;
+}
+div.card__image-holder {
+  background: rgba(0,0,0,0.1);
+  height: 0;
+  padding-bottom: 75%;
+}
+
+div.card-title {
+
+color :black;
+  background: var(--white);  
+  z-index: 0;
+}
+
+div.card-title a.toggle-info {
+  border-radius: 32px;
+  height: 32px;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  width: 32px;
+}
+
+div.card-title a.toggle-info span {
+  background: var(--white);
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 16px;
+  transition: all 0.15s 0s ease-out;
+  width: 12px;
+}
+
+div.card-title a.toggle-info span.left {
+  right: 14px;
+  transform: rotate(45deg);
+}
+
+div.card-title a.toggle-info span.right {
+    left: 14px;
+    transform: rotate(-45deg);
+    }
+        div.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    }
+    
+    @media screen and (min-width: 768px) {
+    div.card {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+    }
+    
+    div.card:nth-child(2n) {
+    margin-right: 0;
+    }
+    }

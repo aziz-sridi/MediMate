@@ -1,0 +1,65 @@
+.form {
+  
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+  background-image: url('../assets/img/banner-bg.png');
+  background-size: cover;
+
+}
+
+.auth-form-container, .login-form, .register-form {
+  align-items: center;
+  text-align: center;
+  border: 1px solid purple ;
+  padding :50px;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+ 
+}
+
+input {
+  
+  background-color: #DDA0DD;
+  width: 50rem;
+  margin: 2rem ;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+button {
+  border: none;
+  background-color: SeaShell;
+  padding: 10px  40px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+h2{ 
+  margin: 2em ;
+}
